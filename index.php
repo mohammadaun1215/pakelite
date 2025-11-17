@@ -1,5 +1,12 @@
 <?php
 session_start();
+
+include 'Source/SAMPQuery.php';
+$server = new SAMPQueryAPI('localhost', 7777);
+if($server->isOnline())
+  {
+    $info = $server->getInfo();
+  }
 ?>
 <!DOCTYPE html>
 
@@ -50,9 +57,9 @@ include("header.php");
     <div class="row align-items-center justify-content-center">
       <div class="col-lg-6 mb-5 mb-lg-0">
         <div class="block text-center text-lg-start pe-0 pe-xl-5">
-          <h1 class="text-capitalize mb-4">Trade & Play: Secure Ideal Game Accounts Today</h1>
-          <p class="mb-4">Welcome to GameTrading.pk, the best place to trade game accounts easily! trade, buy, and sell accounts effortlessly in our marketplace to level up your gaming.</p> <a type="button"
-            class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#applyLoan" style="background-color: #44771b;">Browse Now<span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span></a>
+          <h1 class="text-capitalize mb-4">Best Pakistani Stunt SAMP/OpenMP Server</h1>
+          <p class="mb-4">Pak Elite Stunting is a Pakistani multiplayer game server on San Andreas Multiplayer (SA:MP), offering stunts, freeroam, drift, parkour, and fun events for all GTA SA players. Join the community and experience nonstop action!</p> <a type="button"
+            class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#applyLoan" style="background-color: #44771b;"><?=$info['players'] ?><span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span></a>
         </div>
       </div>
       <div class="col-lg-6">
@@ -116,7 +123,7 @@ include("header.php");
     <div class="row">
       <div class="col-lg-4 col-md-6">
         <div class="section-title pt-4">
-          <p class="text-primary text-uppercase fw-bold mb-3" style="color: #ffc107!important;">Game Accounts</p>
+          <p class="text-primary text-uppercase fw-bold mb-3" style="color: #44771b!important;">Game Accounts</p>
           <h1>What We Offer</h1>
           <p>We only offer these accounts for now as we expand we will look into other cagtegories as well.</p>
         </div>
