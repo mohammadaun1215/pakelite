@@ -1,12 +1,6 @@
 <?php
 session_start();
 
-include 'Source/SAMPQuery.php';
-$server = new SAMPQueryAPI('localhost', 7777);
-if($server->isOnline())
-  {
-    $info = $server->getInfo();
-  }
 ?>
 <!DOCTYPE html>
 
@@ -51,7 +45,13 @@ if($server->isOnline())
 <?php
 include("header.php");
 ?>
-
+<?php
+include 'Source/SAMPQueryAPI.php';
+$server = new SAMPQueryAPI('192.168.18.93', 7777);
+if($server->isOnline())
+  {
+    $info = $server->getInfo();
+?>
 <section class="banner bg-tertiary position-relative overflow-hidden">
   <div class="container">
     <div class="row align-items-center justify-content-center">
@@ -59,8 +59,8 @@ include("header.php");
         <div class="block text-center text-lg-start pe-0 pe-xl-5">
           <h1 class="text-capitalize mb-4">Best Pakistani Stunt SAMP/OpenMP Server</h1>
           <p class="mb-4">Pak Elite Stunting is a Pakistani multiplayer game server on San Andreas Multiplayer (SA:MP), offering stunts, freeroam, drift, parkour, and fun events for all GTA SA players. Join the community and experience nonstop action!</p> <a type="button"
-            class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#applyLoan" style="background-color: #44771b;"><?=$info['players'] ?><span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span></a>
-        </div>
+            class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#applyLoan" style="background-color: #44771b;">Online Players <?php echo $info['players'] ?> / <?php echo $info['maxplayers'] ?><span style="font-size: 14px;" class=""></span></a>
+          </div>
       </div>
       <div class="col-lg-6">
         <div class="ps-lg-5 text-center">
@@ -71,6 +71,32 @@ include("header.php");
       </div>
     </div>
   </div>
+<?php
+  }
+  else{
+?>
+<section class="banner bg-tertiary position-relative overflow-hidden">
+<div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <div class="block text-center text-lg-start pe-0 pe-xl-5">
+          <h1 class="text-capitalize mb-4">Best Pakistani Stunt SAMP/OpenMP Server</h1>
+          <p class="mb-4">Pak Elite Stunting is a Pakistani multiplayer game server on San Andreas Multiplayer (SA:MP), offering stunts, freeroam, drift, parkour, and fun events for all GTA SA players. Join the community and experience nonstop action!</p> <a type="button"
+            class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#applyLoan" style="background-color: #ff0000ff;">Server is Offline<span style="font-size: 14px;" class=""></span></a>
+          </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="ps-lg-5 text-center">
+          <img loading="lazy" decoding="async"
+            src="images/banner/banner-img.jpg"
+            alt="banner image" class="w-100">
+        </div>
+      </div>
+    </div>
+  </div>
+<?php
+  }
+?>
   <div class="has-shapes">
     <svg class="shape shape-left text-light" viewBox="0 0 192 752" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
