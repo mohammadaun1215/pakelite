@@ -149,48 +149,48 @@ if($server->isOnline())
     <div class="row">
       <div class="col-lg-4 col-md-6">
         <div class="section-title pt-4">
-          <p class="text-primary text-uppercase fw-bold mb-3" style="color: #44771b!important;">Game Accounts</p>
-          <h1>What We Offer</h1>
-          <p>We only offer these accounts for now as we expand we will look into other cagtegories as well.</p>
+          <p class="text-primary text-uppercase fw-bold mb-3" style="color: #44771b!important;">Popular Games</p>
+          <h1>Most Played</h1>
+          <p>Pak Elite Stunting is Pakistan’s ultimate SAMP Stunt Server packed with mega ramps, races, parkour, derby, deathmatch, drifting, and nonstop action. Join the elite stunt community and unleash your skills!</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 service-item">
-        <a class="text-black" href="service-details.html">
-          <div class="block"><img src="images/1.png" height="55px" width="55px">
-            <h3 class="mb-3 service-title" style="padding-top:18px;">Counter Stríke 2 </h3>
-            <p class="mb-0 service-description">Visit this page to see a compelete listing for this category.</p>
+        <a class="text-black" href="#">
+          <div class="block"><img src="images/derby.png" height="55px" width="55px">
+            <h3 class="mb-3 service-title" style="padding-top:18px;">Derby</h3>
+            <p class="mb-0 service-description">Smash or get smashed — welcome to the Derby.</p>
           </div>
         </a>
       </div>
       <div class="col-lg-4 col-md-6 service-item">
-        <a class="text-black" href="service-details.html">
-          <div class="block"><img src="images/2.png" height="55px" width="55px">
-            <h3 class="mb-3 service-title" style="padding-top:18px;">Rocket League</h3>
-            <p class="mb-0 service-description">Visit this page to see a compelete listing for this category.</p>
+        <a class="text-black" href="#">
+          <div class="block"><img src="images/dm.png" height="55px" width="55px">
+            <h3 class="mb-3 service-title" style="padding-top:18px;">Deathmatch</h3>
+            <p class="mb-0 service-description">Reflexes win, excuses lose — DM begins now.</p>
           </div>
         </a>
       </div>
       <div class="col-lg-4 col-md-6 service-item">
-        <a class="text-black" href="service-details.html">
-          <div class="block"><img src="images/3.png" height="55px" width="55px">
-            <h3 class="mb-3 service-title" style="padding-top:18px;">GTA V</h3>
-            <p class="mb-0 service-description">Visit this page to see a compelete listing for this category.</p>
+        <a class="text-black" href="#">
+          <div class="block"><img src="images/race.png" height="55px" width="55px">
+            <h3 class="mb-3 service-title" style="padding-top:18px;">Race</h3>
+            <p class="mb-0 service-description">Speed decides the winner — welcome to Race mode.</p>
           </div>
         </a>
       </div>
       <div class="col-lg-4 col-md-6 service-item">
-        <a class="text-black" href="service-details.html">
-          <div class="block"><img src="images/4.png" height="55px" width="55px">
-            <h3 class="mb-3 service-title" style="padding-top:18px;">Fortnite</h3>
-            <p class="mb-0 service-description">Visit this page to see a compelete listing for this category.</p>
+        <a class="text-black" href="#">
+          <div class="block"><img src="images/parkour.png" height="55px" width="55px">
+            <h3 class="mb-3 service-title" style="padding-top:18px;">Parkour</h3>
+            <p class="mb-0 service-description">Run the rooftops, beat the obstacles — Parkour starts now.</p>
           </div>
         </a>
       </div>
       <div class="col-lg-4 col-md-6 service-item">
-        <a class="text-black" href="service-details.html">
-          <div class="block"><img src="images/5.png" height="55px" width="55px">
-            <h3 class="mb-3 service-title" style="padding-top:18px;">Overwatch 2</h3>
-            <p class="mb-0 service-description">Visit this page to see a compelete listing for this category.</p>
+        <a class="text-black" href="#">
+          <div class="block"><img src="images/jumps.png" height="55px" width="55px">
+            <h3 class="mb-3 service-title" style="padding-top:18px;">Jumps</h3>
+            <p class="mb-0 service-description">Speed up, launch, and land like a pro.</p>
           </div>
         </a>
       </div>
