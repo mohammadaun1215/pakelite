@@ -203,18 +203,16 @@ if($server->isOnline())
     <div class="row align-items-center">
       <div class="col-lg-5">
         <div class="section-title">
-          <p class="text-primary text-uppercase fw-bold mb-3" style="color: #ffc107!important;">Easy Ownership</p>
-          <h1>Purchase Accounts With Ease</h1>
+          <p class="text-primary text-uppercase fw-bold mb-3" style="color: #44771b!important;">About Pak Elite Stunting</p>
+          <h1>Pakistan’s Ultimate SAMP Stunt Server</h1>
           <p class="lead mb-0 mt-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consv allis quam aliquet integer eget magna
-              ullam corper intesager vulutate aenean nunc quis a urna morbi id vitae. Vulpuate nisl</p>
-            <p>sed morbi sit ut placerat eges aeftas et. Pellen tesque tristisque magnis augue gravida pulvinar
-              placerat. Tellus massa pretra scelerisque leo. In volutpat arcu nunc nisl et, viverra faucisfbus</p>
-          </p> <a class="btn btn-primary mt-4" href="about.html" style="background-color: #ffc107!important;">Browse Now</a>
+            <p>Pak Elite Stunting is Pakistan’s ultimate SAMP stunt server featuring mega ramps, high-speed races, parkour challenges, derby battles, deathmatch arenas, and nonstop fun. Join the elite stunt community and experience pure action every second you play.</p>
+            <p>Our goal is to provide a fun, active, and community-driven environment for all Pakistani SAMP players.</p>
+          </p> <a class="btn btn-primary mt-4" href="about.html" style="background-color: #44771b!important;">Browse Now</a>
         </div>
       </div>
       <div class="col-lg-7 text-center text-lg-end">
-        <img loading="lazy" decoding="async" src="images/purchase.png" alt="About Ourselves" class="img-fluid">
+        <img loading="lazy" decoding="async" src="images/about.png" alt="About Ourselves" class="img-fluid">
       </div>
     </div>
   </div>
@@ -252,76 +250,14 @@ if($server->isOnline())
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="row align-items-center justify-content-between">
-      <div class="col-lg-5">
-        <div class="section-title">
-          <p class="text-primary text-uppercase fw-bold mb-3" style="color: #ffc107!important;">Fast & Easy</p>
-          <h1>Fast, Secure <br> And Easy Trading</h1>
-          <div class="content mb-0 mt-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consv allis quam aliquet integer eget magna
-              ullam corper intesager peent esque urna. Ac eu fringilla intea dger egadv estas ut. Sed vulutate aenean
-              nunc quis a urna morbi id vitae. Vulpuate nisl</p>
-            <p>sed morbi sit ut placerat eges aeftas et. Pellen tesque tristisque magnis augue gravida pulvinar
-              placerat. Tellus massa pretra scelerisque leo. In volutpat arcu nunc nisl et, viverra faucisfbus egestas.
-              In habitasse sagittis, convallis ut commodo amet, odio sagittis. Maecenas massa turpis duis felis, massa.
-              Morbi feugiat.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
-          <div class="d-block d-sm-flex align-items-center m-2">
-            <div class="icon me-4 mb-4 mb-sm-0"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-shield" viewBox="0 0 16 16" style="color: #ffc107;">
-              <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56"/>
-            </svg><i class="bi bi-shield"></i>
-            </div>
-            <div class="block">
-              <h3 class="mb-3">Fast & Secure</h3>
-              <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing. Portaa nulla congue sed aliquam id
-                adipiscing auue</p>
-            </div>
-          </div>
-        </div>
-        <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
-          <div class="d-block d-sm-flex align-items-center m-2">
-            <div class="icon me-4 mb-4 mb-sm-0"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-question" viewBox="0 0 16 16" style="color: #ffc107;">
-              <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
-            </svg> <i class="bi bi-question"></i>
-            </div>
-            <div class="block">
-              <h3 class="mb-3">FAQs</h3>
-              <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing. Portaa nulla congue sed aliquam id
-                adipiscing auue</p>
-            </div>
-          </div>
-        </div>
-        <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
-          <div class="d-block d-sm-flex align-items-center m-2">
-            <div class="icon me-4 mb-4 mb-sm-0"> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-cash" viewBox="0 0 16 16" style="color: #ffc107;">
-              <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
-              <path d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2z"/>
-            </svg><i class="bi bi-cash"></i>
-            </div>
-            <div class="block">
-              <h3 class="mb-3">Quick Cash Transfer</h3>
-              <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing. Portaa nulla congue sed aliquam id
-                adipiscing auue</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <section class="section">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12">
         <div class="section-title text-center mb-5 pb-2">
-          <p class="text-primary text-uppercase fw-bold mb-3" style="color: #ffc107!important;">Questions You Have</p>
+          <p class="text-primary text-uppercase fw-bold mb-3" style="color: #44771b!important;">Questions You Have</p>
           <h1>Frequently Asked Questions</h1>
         </div>
       </div>
@@ -331,78 +267,45 @@ if($server->isOnline())
             <h2 class="accordion-header accordion-button h5 border-0 active"
               id="heading-ebd23e34fd2ed58299b32c03c521feb0b02f19d9" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9" aria-expanded="true"
-              aria-controls="collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9">Can I apply if my credit isn&rsquo;t
-              perfect?
+              aria-controls="collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9">What is Pak Elite Stunting?
             </h2>
             <div id="collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9"
               class="accordion-collapse collapse border-0 show"
               aria-labelledby="heading-ebd23e34fd2ed58299b32c03c521feb0b02f19d9" data-bs-parent="#accordionFAQ">
-              <div class="accordion-body py-0 content">The difference between and premium product consist number of
-                components, plugins, page in each. The Free versions contain only a few elements and pages that.</div>
+              <div class="accordion-body py-0 content">Pak Elite Stunting is a Pakistani SAMP stunt server offering mega ramps, races, parkour, derby, deathmatch, and nonstop fun modes.</div>
             </div>
           </div>
           <div class="accordion-item p-1 mb-2">
             <h2 class="accordion-header accordion-button h5 border-0 "
               id="heading-a443e01b4db47b3f4a1267e10594576d52730ec1" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapse-a443e01b4db47b3f4a1267e10594576d52730ec1" aria-expanded="false"
-              aria-controls="collapse-a443e01b4db47b3f4a1267e10594576d52730ec1">How do I know that I have been
-              approved?
+              aria-controls="collapse-a443e01b4db47b3f4a1267e10594576d52730ec1">Are there admins available?
             </h2>
             <div id="collapse-a443e01b4db47b3f4a1267e10594576d52730ec1" class="accordion-collapse collapse border-0 "
               aria-labelledby="heading-a443e01b4db47b3f4a1267e10594576d52730ec1" data-bs-parent="#accordionFAQ">
-              <div class="accordion-body py-0 content">The difference between and premium product consist number of
-                components, plugins, page in each. The Free versions contain only a few elements and pages that.</div>
+              <div class="accordion-body py-0 content">Yes, active admins are online daily to assist players and host events.</div>
             </div>
           </div>
           <div class="accordion-item p-1 mb-2">
             <h2 class="accordion-header accordion-button h5 border-0 "
               id="heading-4b82be4be873c8ad699fa97049523ac86b67a8bd" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapse-4b82be4be873c8ad699fa97049523ac86b67a8bd" aria-expanded="false"
-              aria-controls="collapse-4b82be4be873c8ad699fa97049523ac86b67a8bd">Do I need to fax or email any
-              documents?
+              aria-controls="collapse-4b82be4be873c8ad699fa97049523ac86b67a8bd">Can I get VIP or special perks?
             </h2>
             <div id="collapse-4b82be4be873c8ad699fa97049523ac86b67a8bd" class="accordion-collapse collapse border-0 "
               aria-labelledby="heading-4b82be4be873c8ad699fa97049523ac86b67a8bd" data-bs-parent="#accordionFAQ">
-              <div class="accordion-body py-0 content">The difference between and premium product consist number of
-                components, plugins, page in each. The Free versions contain only a few elements and pages that.</div>
+              <div class="accordion-body py-0 content">Yes — VIP options, special ranks, and rewards are available depending on server rules.</div>
             </div>
           </div>
           <div class="accordion-item p-1 mb-2">
             <h2 class="accordion-header accordion-button h5 border-0 "
               id="heading-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapse-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3" aria-expanded="false"
-              aria-controls="collapse-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3">Do you provide loans to military
-              personnel?
+              aria-controls="collapse-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3">How can I report a problem or player?
             </h2>
             <div id="collapse-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3" class="accordion-collapse collapse border-0 "
               aria-labelledby="heading-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3" data-bs-parent="#accordionFAQ">
-              <div class="accordion-body py-0 content">The difference between and premium product consist number of
-                components, plugins, page in each. The Free versions contain only a few elements and pages that.</div>
-            </div>
-          </div>
-          <div class="accordion-item p-1 mb-2">
-            <h2 class="accordion-header accordion-button h5 border-0 "
-              id="heading-0c2f829793a1f0562fea97120357dd2d43319164" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapse-0c2f829793a1f0562fea97120357dd2d43319164" aria-expanded="false"
-              aria-controls="collapse-0c2f829793a1f0562fea97120357dd2d43319164">Can I remove footer credit purchase ?
-            </h2>
-            <div id="collapse-0c2f829793a1f0562fea97120357dd2d43319164" class="accordion-collapse collapse border-0 "
-              aria-labelledby="heading-0c2f829793a1f0562fea97120357dd2d43319164" data-bs-parent="#accordionFAQ">
-              <div class="accordion-body py-0 content">The difference between and premium product consist number of
-                components, plugins, page in each. The Free versions contain only a few elements and pages that.</div>
-            </div>
-          </div>
-          <div class="accordion-item p-1 mb-2">
-            <h2 class="accordion-header accordion-button h5 border-0 "
-              id="heading-8fe6730e26db16f15763887c30a614caa075f518" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapse-8fe6730e26db16f15763887c30a614caa075f518" aria-expanded="false"
-              aria-controls="collapse-8fe6730e26db16f15763887c30a614caa075f518">What is the difference the free
-              versions?
-            </h2>
-            <div id="collapse-8fe6730e26db16f15763887c30a614caa075f518" class="accordion-collapse collapse border-0 "
-              aria-labelledby="heading-8fe6730e26db16f15763887c30a614caa075f518" data-bs-parent="#accordionFAQ">
-              <div class="accordion-body py-0 content">The difference between and premium product consist number of
-                components, plugins, page in each. The Free versions contain only a few elements and pages that.</div>
+              <div class="accordion-body py-0 content">TYou can report via /report, Discord, or by messaging an online admin.</div>
             </div>
           </div>
         </div>
