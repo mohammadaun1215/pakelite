@@ -124,7 +124,7 @@ while($row=mysqli_fetch_array($fetch)){
 						<span>Admin Level <?=$row[6];?></span>
 					</div>
 					<div class="box-btn">
-					    <a href="#">View player's stats</a>
+					    <a href="profile.php?id=<?php echo $row[0];?>">View player's stats</a>
 					</div>
 				 </div>
 			</div>	 

@@ -64,16 +64,38 @@ include('connect.php');
         </nav>
       </div>
     </div>
+<?php
 
+// check if id exists
+if (!isset($_GET['id'])) {
+    die("No player selected.");
+}
+
+$id = intval($_GET['id']);
+
+$query = mysqli_query($conn, "SELECT * FROM players WHERE Id = $id");
+
+if (mysqli_num_rows($query) == 0) {
+    die("Player not found.");
+}
+
+$player = mysqli_fetch_assoc($query);
+
+$skinFile = $player['SkinID'];   // or $player[10] depending on your DB
+$skinPath = "skins/" . $skinFile;
+
+
+
+?>
     <div class="row">
       <div class="col-lg-4">
         <div class="card mb-4">
           <div class="card-body text-center">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar"
-              class="rounded-circle img-fluid" style="width: 150px;">
-            <h5 class="my-3">John Smith</h5>
-            <p class="text-muted mb-1">Full Stack Developer</p>
-            <p class="text-muted mb-4">Bay Area, San Francisco, CA</p>
+            <img src="<?=$skinPath;?>.png" alt="avatar"
+              class=" img-fluid" style="width: 80px;">
+            <h5 class="my-3"><?=$player['Username'];?></h5>
+            <p class="text-muted mb-1">Hours Played: <?=$player['Hours'];?></p>
+            <p class="text-muted mb-4">Admin Level: <?=$player['Level'];?></p>
             <div class="d-flex justify-content-center mb-2">
               <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary">Join Game</button>
             </div>
@@ -89,46 +111,46 @@ include('connect.php');
           <div class="card-body">
             <div class="row">
               <div class="col-sm-3">
-                <p class="mb-0">Full Name</p>
+                <p class="mb-0">Score</p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0">Johnatan Smith</p>
+                <p class="text-muted mb-0"><?=$player['Score'];?></p>
               </div>
             </div>
             <hr>
             <div class="row">
               <div class="col-sm-3">
-                <p class="mb-0">Email</p>
+                <p class="mb-0">Kills</p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0">example@example.com</p>
+                <p class="text-muted mb-0"><?=$player['Kills'];?></p>
               </div>
             </div>
             <hr>
             <div class="row">
               <div class="col-sm-3">
-                <p class="mb-0">Phone</p>
+                <p class="mb-0">Deaths</p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0">(097) 234-5678</p>
+                <p class="text-muted mb-0"><?=$player['Deaths'];?></p>
               </div>
             </div>
             <hr>
             <div class="row">
               <div class="col-sm-3">
-                <p class="mb-0">Mobile</p>
+                <p class="mb-0">Money</p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0">(098) 765-4321</p>
+                <p class="text-muted mb-0"><?=$player['Money'];?></p>
               </div>
             </div>
             <hr>
             <div class="row">
               <div class="col-sm-3">
-                <p class="mb-0">Address</p>
+                <p class="mb-0">Races Won</p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0">Bay Area, San Francisco, CA</p>
+                <p class="text-muted mb-0"><?=$player['Raceswon'];?></p>
               </div>
             </div>
           </div>
