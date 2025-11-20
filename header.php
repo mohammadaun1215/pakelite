@@ -14,14 +14,12 @@ if(!isset($_SESSION['username'])){
 				<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
 					<li class="nav-item"> <a class="nav-link" href="index.php">Home</a>
 					</li>
-          <li class="nav-item"> <a class="nav-link" href="index.php">Accounts</a>
+          <li class="nav-item"> <a class="nav-link" href="index.php">About Us</a>
 					</li>
-          <li class="nav-item"> <a class="nav-link" href="#">Items</a>
-					</li>
-          <li class="nav-item"> <a class="nav-link" href="#">About Us</a>
+          <li class="nav-item"> <a class="nav-link" href="players.php">Players</a>
 					</li>
 				</ul>
-				<!-- account btn --> <a href="login.php" class="btn btn-primary ms-2 ms-lg-3" style="background-color: #44771b;">Start Selling</a>
+				<!-- account btn --> <a href="login.php" class="btn btn-primary ms-2 ms-lg-3" style="background-color: #44771b;">Login</a>
 		
 			</div>
 		</div>
@@ -40,7 +38,7 @@ if(isset($_SESSION['username'])){
 	<nav class="navbar navbar-expand-xl navbar-light text-center py-3">
 		<div class="container">
 			<a class="navbar-brand" href="index.php">
-				Game Trading
+				Pak Elite Stunting
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
 			</button>
@@ -48,11 +46,9 @@ if(isset($_SESSION['username'])){
 				<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
 					<li class="nav-item"> <a class="nav-link" href="index.php">Home</a>
 					</li>
-          <li class="nav-item"> <a class="nav-link" href="accounts.php">Accounts</a>
+          <li class="nav-item"> <a class="nav-link" href="accounts.php">About Us</a>
 					</li>
-          <li class="nav-item"> <a class="nav-link" href="#">Items</a>
-					</li>
-          <li class="nav-item"> <a class="nav-link" href="#">About Us</a>
+          <li class="nav-item"> <a class="nav-link" href="players.php">Players</a>
 					</li>
 				</ul>
 				

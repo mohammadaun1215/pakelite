@@ -2,7 +2,7 @@
 $host="localhost";
 $username="root";
 $password="";
-$db="gametrading_db";
+$db="pakelite_db";
 
 $conn=mysqli_connect($host,$username,$password,$db);
 ?>
