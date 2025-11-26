@@ -71,12 +71,12 @@ if(!isset($_SESSION['username'])){
         /* BASIC */
 
         html {
-            background-color: #56baed;
+            background-color: #ffffffff;
         }
 
         body {
             font-family: "Poppins", sans-serif;
-            height: 100vh;
+            height: 50vh;
         }
 
         a {
@@ -387,20 +387,18 @@ Username or password is incorrect!
             <!-- Tabs Titles -->
             <!-- Icon -->
             <div class="fadeIn first">
-                <h4 style="padding-top:25px;">Game Trading.pk</h4>
+                <h4 style="padding-top:25px;">Pak Elite Stunting</h4>
             </div>
             <!-- Login Form -->
             <form action="" method="POST" enctype="multipart/form-data">
-                <input type="text" id="email" class="fadeIn third" name="txt_email" placeholder="Enter Email" required>
-                <input type="text" id="password" class="fadeIn third" name="txt_pass" placeholder="Enter Password"
+                <input type="text" id="email" class="fadeIn third" name="txt_email" placeholder="Enter In-Game Username" required>
+                <input type="text" id="password" class="fadeIn third" name="txt_pass" placeholder="Enter In-Game Password"
                     required>
-                <input type="submit" class="fadeIn fourth" value="Login" name="btn_login" style="background-color: #ffc107;">
+                <input type="submit" class="fadeIn fourth" value="Login" name="btn_login" style="background-color: #44771b;">
             </form>
            
             <!-- Remind Passowrd -->
-            <div id="formFooter">
-                <a class="underlineHover" href="signup.php">Don't have an account?</a>
-            </div>
+            
         </div>
     </div>
 <?php
